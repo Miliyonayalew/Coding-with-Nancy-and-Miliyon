@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey-Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    
 </head>
 <body>
     <main>
-         <section>
-
+         <div class="card">
             <h1 id="title">Title page</h1>
             <p id="description">Hello, World we're software developer!</p>
-         
-        </section> 
+        </div> 
 
-        <section>
+        <div class="card">
 
             <form id="survey-form">
                 <label for="name" id="name-label">Name</label>
@@ -62,9 +63,12 @@
                     <input type="checkbox" value="database">
                     DataBase
                 </label>
+                <label for="comment">Any Comment or Suggestions?</label>
+                <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+                <input id= "submit" type="submit" value="Submit">
             </form>
 
-        </section>
+        </d>
     </main>
 </body>
 </html>
